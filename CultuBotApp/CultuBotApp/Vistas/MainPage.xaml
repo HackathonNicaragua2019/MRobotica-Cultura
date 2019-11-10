@@ -20,17 +20,19 @@
                 <Label Text="CultuBot" TextColor="#c0ffb3" 
                        FontSize="30" HorizontalTextAlignment="Center"  
                        HeightRequest="300" VerticalOptions="FillAndExpand" />
+                
             </Frame>
         </StackLayout>
 
+        <!--Fondo frame-->
         <StackLayout>
             <StackLayout>
                 <Frame BorderColor="#3c9d9b" CornerRadius="20" 
                        HorizontalOptions="Center" 
                        VerticalOptions="StartAndExpand" 
                        Margin="30,90" HeightRequest="330" 
-                       WidthRequest="320" >
-
+                       WidthRequest="320">
+                    <Image Source="GueguenseImg.jpg"></Image>
                 </Frame>
             </StackLayout>
         </StackLayout>
