@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="CultuBotApp.Vistas.PageGigantona"
+             BackgroundImageSource="Fondo.png">
+
+    <Grid VerticalOptions="FillAndExpand">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions >
+
+
+        <ScrollView>
+            <StackLayout>
+                <Image Source="gigantonas.jpg" VerticalOptions="StartAndExpand" HeightRequest="200" Aspect="AspectFill"/>
+                <Label Text="La Gigantona" TextColor="#394a6d" FontSize="25" HorizontalTextAlignment="Center"/>
+                <Label  FontSize="18" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" Margin="15,0" VerticalTextAlignment="Start" LineBreakMode="WordWrap">
+                    El indio esculpió la gigantona, queriendo de esta manera representar a la mujer española, de una manera burlesca, satírica, que a pesar de su belleza, de su estatura y sobre todo de su color blanco, ellos, los indios la hacen bailar al son de los tambores y la detienen cuando el coplero declama. Por este motivo el indio se siente superior a la española ya que la hacen bailar al son que le toquen, el indio se representó en el enano cabezón, pequeño de estatura pero grande de cerebro. 
+
+Diciembre es el mes de las purísimas y en las ciudades que aun conservan el vestigio de la colonia, los atardeceres encendidos con su horizonte surcado de celajes plomizos y violetas, anuncian la salida de la gigantona, quien fiel a su cita aparece la legendaria dama, adornada siempre de sus joyas doradas, al son hueco de los tambores y bajo la luz pálida de las estrellas forradas en papeles multicolores, baila la gigantona, con sus vestidos de colores vivos, con una diadema de colores resplandecientes. 
+
+Esta legendaria mujer de mas de tres metros de alto, luce sus vestidos coloridos de seda, tiene una armazón de madera por dentro en donde esta una persona que la lleva cargando en hombros y la pasea por la ciudad, generalmente tocan un tambor para anunciar que viene el cortejo, compuesto por el enano cabezón, el tamborilero, el coplero y el payasito, todos estos personajes acompañan a la gigantona, en su recorrido por las ciudades, solicitan apoyo económico a los transeúntes, quienes se paran al verla bailar al son del tambor, al final de cada baile el coplero dice una copla y luego continua la velada, generalmente cobran diez córdobas por copla con su baile, si alguien quiere contratarla le dice al responsable que desea cinco o diez coplas y así hace el arreglo con el cliente, pagando cincuenta o cien córdobas por la velada ( Cs 50.00 Cs 100.00), luego sigue su camino por los barrios y colonias en cada ciudad, siendo las mas vistosas en Chinandega, Managua y León, aunque sale en otras ciudades del occidente, centro, norte y sur del país. 
+
+Cada copla y su baile dura alrededor de tres minutos, luego continúan con la velada, de acuerdo con los contratos que reciben, así pasan las horas y se trasladan a lugares donde se celebran fiestas, la temporada del mes de diciembre es la mas notoria, en vista que se celebra la Purísima el día 7 de diciembre de cada año, en estas fechas antes y después de la celebración de la Concepción de María, es que la gigantona hace sus apariciones, siendo bien recibida en todos los lugares con su comitiva.
+                </Label>
+            </StackLayout>
+
+        </ScrollView>
+
+
+    </Grid>
+</ContentPage>

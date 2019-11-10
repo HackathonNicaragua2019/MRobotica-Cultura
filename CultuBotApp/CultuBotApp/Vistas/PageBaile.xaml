@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="CultuBotApp.Vistas.PageBaile"
+             BackgroundImageSource="Fondo.png" Title="GuenBot">
+    <StackLayout>
+        <Button x:Name="btnconect" TextColor="White" Text="Conectar" CornerRadius="20" BackgroundColor="#3c9d9b" 
+                BorderColor="#3C9D9B" HorizontalOptions="Center" HeightRequest="40" Margin="0,10" WidthRequest="250" />
+    </StackLayout>
+</ContentPage>

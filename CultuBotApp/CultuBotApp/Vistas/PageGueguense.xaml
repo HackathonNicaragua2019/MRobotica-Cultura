@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="CultuBotApp.Vistas.PageGueguense"
+             BackgroundImageSource="Fondo.png">
+
+    <Grid VerticalOptions="FillAndExpand">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+
+        <ScrollView>
+            <StackLayout>
+                <Image Source="Gueguense.jpg" VerticalOptions="StartAndExpand" HeightRequest="200" Aspect="AspectFill"/>
+                <Label Text="Güegüense" TextColor="#394a6d" FontSize="25" HorizontalTextAlignment="Center"/>
+                <Label  FontSize="18" HorizontalOptions="CenterAndExpand" VerticalOptions="StartAndExpand" Margin="15,0" VerticalTextAlignment="Start" LineBreakMode="WordWrap">
+                    Güegüense nace en la ciudad de Diriamba, en el actual departamento de Carazo. Existen varias teorías sobre la fecha de su surgimiento, pero sí se sabe con certeza que su lengua primigenia de representación era el náhuatl local. La obra se presentaba como teatro callejero, en las narices de las autoridades coloniales españolas civiles y militares.
+
+El pueblo de la zona había demostrado su fuerte carácter con un directo rechazo y rebeldía contra el dominio español desde la llegada de los primeros conquistadores. En 1522, aproximadamente, el capitán de conquista Fernández Dávila se topó en la región con la tribu local encabezada por el cacique Diriangén. Los indígenas recibieron cortésmente a los extranjeros y escucharon sus demandas que incluían el sometimiento a la autoridad de la colonia española y la conversión al cristianismo; pidieron un breve tiempo para considerarlas y al volver arremetieron con furia contra el invasor.
+
+Ese episodio de la historia es hoy considerado como la primera guerra anti-intervensionista nacional. Los españoles se impusieron gracias a su tecnología militar, y el pueblo de Diriangén se vio diezmado y sometido ante el invasor. Sus descendientes, un siglo después, fueron los posibles creadores y primeros espectadores de una obra cuyo contenido expresaba una resistencia pacífica ante la autoridad extranjera.  
+
+El Güegüense continuó presentándose en las calles y era transmitido de forma oral de una generación a la otra. No fue sino hasta 1942 que sus parlamentos fueron recopilados e impresos por primera vez en un libro, y ocho años después su música es grabada, también por vez primera.
+
+En tiempos modernos los bailes de El Güegüense y su presentación completa pasó a formar parte de la expresión cultural durante las fiestas en honor al santo patrono de Diriamba, San Sebastián, en la tercera semana de Enero. Aunque hoy en día sus bailes forman también parte del repertorio de diversos Ballets Folclóricos profesionales y la obra completa es eventualmente interpretada de forma profesional o aficionada en teatros y colegios por todo el país, es durante estas fiestas diriambinas que se puede observar a El Güegüense y sus bailes interpretados por sus herederos naturales: los habitantes de la comunidad de Diriamba.
+               
+El 25 de Noviembre del año 2005, la Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura (UNESCO) otorgó un reconocimiento mundial a “El Güegüense o Macho Ratón”, al declararlo Patrimonio de la Humanidad.
+                </Label>
+            </StackLayout>
+
+        </ScrollView>
+    </Grid>
+</ContentPage>

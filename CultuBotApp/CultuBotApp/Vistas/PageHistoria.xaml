@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="CultuBotApp.Vistas.PageHistoria"
+             BackgroundImageSource="Fondo.png">
+
+    <Grid VerticalOptions="FillAndExpand">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackLayout>
+            <Button x:Name="btnGueguense" TextColor="White"  
+                    Text="Güegüense" CornerRadius="20" 
+                    BackgroundColor="#3c9d9b" BorderColor="#3C9D9B" 
+                    HorizontalOptions="Center" Margin="0,10" 
+                    WidthRequest="350" />
+
+            <Button x:Name="btnGigantona" TextColor="White"  
+                    Text="La Gigantona" CornerRadius="20" 
+                    BackgroundColor="#3c9d9b" BorderColor="#3C9D9B" 
+                    HorizontalOptions="Center" Margin="0,30" 
+                    WidthRequest="350"  />
+        </StackLayout>
+
+    </Grid>
+
+</ContentPage>
